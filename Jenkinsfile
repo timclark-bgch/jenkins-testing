@@ -3,6 +3,7 @@ node() {
 	echo 'Build'
 	sh 'python --version'
 	sh 'which python'
+	sh 'virtualenv --version'
 }
 
 stage name:'Check'
