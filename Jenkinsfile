@@ -2,6 +2,7 @@ stage name:'Build'
 node() {
 	echo 'Build'
 	sh 'python --version'
+	sh 'which python'
 }
 
 stage name:'Check'
