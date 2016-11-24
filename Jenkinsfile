@@ -21,5 +21,5 @@ node()	{
 stage name:'Deploy to PROD'
 node()	{
 	echo 'Deploy to PROD'
-	input message: 'Do you want to deploy?', submitter: 'ops'
+	input message: 'Do you want to deploy to prod?', submitter: 'ops'
 }
