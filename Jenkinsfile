@@ -2,7 +2,7 @@ stage name:'Build'
 node() {
 	echo 'Build'
 	withEnv(['VENV=$WORKSPACE/.venv']) {
-		echo '$VENV'
+		sh 'echo $VENV'
 	}
 	echo 'DONE'
 	sh 'python --version'
