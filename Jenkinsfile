@@ -9,6 +9,7 @@ stage name:'Check'
 node() {
 	echo 'Check'
 	echo 'Boom!'
+	echo 'Bang!'
 }
 
 stage name:'Deploy to DEV'
