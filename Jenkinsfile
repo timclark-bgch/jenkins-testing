@@ -4,6 +4,7 @@ node() {
 	withEnv('VENV=$WORKSPACE/.venv) {
 		echo '$VENV'
 	}
+	echo 'DONE'
 	sh 'python --version'
 	sh 'which python'
 	sh 'java -version'
