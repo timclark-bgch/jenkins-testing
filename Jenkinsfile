@@ -1,3 +1,5 @@
+#!/usr/bin/env groovy
+
 stage name:'Build'
 node() {
 	echo 'Build'
@@ -29,7 +31,6 @@ node()	{
 }
 
 stage name:'Deploy to PROD'
-input message: 'Do you want to deploy to prod?'
 node()	{
 	echo 'Deploy to PROD'
 }
