@@ -1,7 +1,7 @@
 stage name:'Build'
 node() {
 	echo 'Build'
-	withEnv('VENV=$WORKSPACE/.venv) {
+	withEnv('VENV=$WORKSPACE/.venv') {
 		echo '$VENV'
 	}
 	echo 'DONE'
